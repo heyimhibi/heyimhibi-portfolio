@@ -1,0 +1,26 @@
+body {
+    background-image: url("../../assets/images/background-1.jpg");
+    background-size: cover;
+    background-image: cross-fade()
+}
+
+.container-fluid {
+    background-color:transparent;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    outline-color: aliceblue;
+    background-color: transparent;
+    margin: 40px;
+}
+
+#jumbo {
+    opacity: 0.5;
+
+}
+
+
+
+
