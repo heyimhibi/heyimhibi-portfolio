@@ -10,10 +10,22 @@ body {
 
 .nav-link {
     color: white;
-    font-weight: bold;
     outline-color: aliceblue;
     background-color: transparent;
     margin: 40px;
+    align-content: center;
+}
+
+.nav{
+    align-items: center;
+}
+
+.navbar-brand {
+    display: inline-block;
+    line-height: inherit;
+    white-space: nowrap;
+    height: 100px;
+    
 }
 
 #jumbo {
