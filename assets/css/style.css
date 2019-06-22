@@ -1,23 +1,29 @@
 body {
     background-image: url("../../assets/images/background-1.jpg");
     background-size: cover;
-    background-image: cross-fade()
+    background-image: cross-fade();
+    font-family: 'Poiret One', cursive;
 }
 
 .container-fluid {
     background-color:transparent;
+    padding: 0%;
 }
 
 .nav-link {
-    color: white;
+    color: rgb(0, 0, 0);
     outline-color: aliceblue;
     background-color: transparent;
-    margin: 40px;
+    margin: 1%;
     align-content: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
 }
 
 .nav{
     align-items: center;
+    background-color: rgba(255,255,255,0.8);
+    padding: 0%;
 }
 
 .navbar-brand {
@@ -25,14 +31,36 @@ body {
     line-height: inherit;
     white-space: nowrap;
     height: 100px;
-    
-}
-
-#jumbo {
-    opacity: 0.5;
 
 }
 
+.nav-container {
+    background: rgba(255,255,255,0.8);
+}
 
+.jumbotron {
+background: transparent;
+font-family: 'Poiret One', cursive;
+}
+
+.lead {
+
+    font-size: 30px;
+}
+
+.jumbotronContainer {
+    background: rgba(255,255,255,0.8);
+    padding: 5%;
+}
+
+.container {
+    background: rgba(255,255,255,0.8);
+    padding: 5%;
+    color: black;
+    font-family: 'Poiret One', cursive;
+
+
+
+}
 
 
