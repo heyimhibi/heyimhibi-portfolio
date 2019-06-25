@@ -30,11 +30,11 @@
     <div class= "nav-container">
 
     </div><nav class="nav justify-content-center">
-      <img class="navbar-brand" src="assets/images/logo.png" alt="Hey! I'm hibi logo">
-      <a class="nav-link btn btn-outline-dark" id="aboutLink" href="#">About</a>
-      <a class="nav-link btn btn btn-outline-dark" id="portfolioLink" href="#">Portfolio</a>
-      <a class="nav-link btn btn btn-outline-dark" id="experienceLink" href="#">Experience</a>
-      <a class="nav-link btn btn btn-outline-dark" id="contactLink" href="#">Contact</a>
+      <img id="hibiLogo" class="navbar-brand" src="assets/images/logo.png" alt="Hey! I'm hibi logo">
+      <button class="nav-link btn btn-outline-dark" id="aboutLink">About</button>
+      <button class="nav-link btn btn btn-outline-dark" id="portfolioLink">Portfolio</button>
+      <button class="nav-link btn btn btn-outline-dark" id="experienceLink">Experience</button>
+      <button class="nav-link btn btn btn-outline-dark" id="contactLink">Contact</button>
     </nav>
   </div>
   </div>
@@ -42,9 +42,10 @@
   <div class="jumbotron" id="jumboSection">
     <div class="jumbotronContainer container rounded">
       <h1 class="display-2">Hey there! I'm Hibi!</h1>
+      <h3 class="display"> (Pronounced hee-bee)</h3>
       <p class="lead">Scientist gone rogue, web developer, artist at heart</p>
       <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <p id=jumbotronP>Venezuela native, scientist by trade, artistic heart, and innovative mind</p>
       <p class="lead">
       </p>
     </div>
@@ -55,6 +56,8 @@
 
   <div class="container"> 
     <h1> content here</h1>
+    <h2> Gallup Strenghts</h2>
+    <p></p>
   </div>
 
 </div>
@@ -63,7 +66,23 @@
 <div id=portfolioSection>
     <div class="container"> 
         <h1> content here</h1>
+        <div class=cardSection>
+        <div class="card mb-3" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <!-- <img src="..." class="card-img" alt="..."> -->
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
 </div>
 
 
@@ -79,6 +98,7 @@
 <div id="contactSection">
     <div class="container"> 
         <h1> content here</h1>
+        <p> education :Studied Biotechnology and Biomedical Science at the University of Central Florida, and continued to pursue a Master's degree in Biotechnology from the Johns Hopkins University, from which I graduated in May of 2018.</p>
       </div>
 </div>
 
@@ -87,7 +107,7 @@
 <!-- JS link -->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+<script src="assets/javascript/app.js"></script>
         
 </body>
 </html>

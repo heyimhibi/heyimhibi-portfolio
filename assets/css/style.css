@@ -43,6 +43,11 @@ background: transparent;
 font-family: 'Poiret One', cursive;
 }
 
+#jumbotronP {
+    font-family: 'Poiret One', cursive;
+    font-size: 24px;
+}
+
 .lead {
 
     font-size: 30px;
