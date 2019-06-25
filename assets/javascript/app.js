@@ -1,4 +1,11 @@
 // On click, hide home page
+$( document ).ready(function() {
+  $("#jumboSection").show(1000);
+    $("#aboutSection").hide();
+    $("#portfolioSection").hide();
+    $("#experienceSection").hide();
+    $("#contactSection").hide();
+});
 
 $("#hibiLogo").on("click", function(){
   $("#jumboSection").show(1000);
