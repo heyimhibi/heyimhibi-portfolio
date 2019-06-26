@@ -1,7 +1,13 @@
+
+html {
+    overflow: overlay;
+}
+
 body {
     background-image: url("../../assets/images/background-1.jpg");
+    height: 100vh;
+    background-attachment: fixed;
     background-size: cover;
-    background-image: cross-fade();
     font-family: 'Poiret One', cursive;
 }
 
@@ -24,7 +30,10 @@ body {
 .nav{
     align-items: center;
     background-color: rgba(255,255,255,0.8);
-    padding: 0%;
+    padding: 0%;  
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 1.5px;
 }
 
 .navbar-brand {
@@ -37,6 +46,7 @@ body {
 
 .nav-container {
     background: rgba(255,255,255,0.8);
+  
 }
 
 .jumbotron {
@@ -59,19 +69,16 @@ font-family: 'Poiret One', cursive;
     padding: 5%;
 }
 
-.container {
+.container, .form {
     background: rgba(255,255,255,0.8);
     margin-top: 10px;
     padding: 5%;
     color: black;
     font-family: 'Poiret One', cursive;
+    outline-color: black;
+    outline-style: solid;
+    outline-width: 1.5px;
 
-
-
-}
-
-#portfolioSection {
-     background: rgba(255,255,255,0.8);
 }
 
 .card-title {
@@ -85,4 +92,26 @@ font-family: 'Poiret One', cursive;
 
 .card-deck, .card-columns {
     display: inline-block;
+}
+
+#portfolioPicture {
+    width: 35%;
+    margin: 2%;
+    padding: auto;
+    align-self: center;
+
+}
+
+.card-body {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+.btn {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
 }
