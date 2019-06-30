@@ -95,8 +95,8 @@ font-family: 'Poiret One', cursive;
 }
 
 #portfolioPicture {
-    width: 35%;
-    margin: 2%;
+    width: 20%;
+    margin: 4%;
     padding: auto;
     align-self: center;
 
@@ -130,4 +130,18 @@ h4 {
     border-width: 1px;
     color: black;
     display: inline-flex
+}
+
+#aboutMePic {
+    border: white;
+    display: inline-flex;
+}
+
+#aboutMeParagraph {
+    display: inline;
+    padding: 5px;
+    margin: 5%;
+    font-size: 20px;
+    font-weight: bold;
+
 }
