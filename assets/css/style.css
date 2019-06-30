@@ -107,7 +107,7 @@ font-family: 'Poiret One', cursive;
     font-weight: bold;
 }
 
-h3 {
+h4 {
     font-weight: bold;
 }
 .btn {
@@ -116,4 +116,20 @@ h3 {
     color: black;
 }
 
+.portfolioDivs {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
 
+.link {
+    padding: 5px;
+    margin: 1px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    color: black;
+    display: inline-flex
+
+
+}
